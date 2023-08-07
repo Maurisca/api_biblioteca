@@ -15,4 +15,4 @@
     res.status(statusCode).json(errorResponse);
   };
   
-  module.exports = errorHandler;
+module.exports = errorHandler;
